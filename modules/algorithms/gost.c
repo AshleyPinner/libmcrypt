@@ -79,7 +79,7 @@ void _mcrypt_kboxinit(void);
 static int init = 0;
 
 static unsigned char const gost_k1[16] = {
-	1, 15, 13, 0, 5, 7, 10, 4, 9, 2, 3, 14, 6, 11, 8, 2
+	1, 15, 13, 0, 5, 7, 10, 4, 9, 2, 3, 14, 6, 11, 8, 12
 };
 static unsigned char const gost_k2[16] = {
 	13, 11, 4, 1, 3, 15, 5, 9, 0, 10, 14, 7, 6, 8, 2, 12
